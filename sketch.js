@@ -1,5 +1,5 @@
 var osc;
-var osc_type = "triangle";
+var osc_type = "sine";
 var rifts = [];
 
 //var frequencies = [24-108] //C1 to C8
@@ -127,7 +127,6 @@ function change_note() {
 // Trying to fix mobile bug where toggle is to quick
 var since_toggle = 0;
 function toggleOsc() {
-  console.log(millis());
   if (millis() - since_toggle > 500) {
     if (oscOn) {
       osc.stop();
