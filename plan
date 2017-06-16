@@ -1,0 +1,4 @@
+1. Generalize this model.
+2. Plug in series of each parameter trained by NN (midi file dataset).
+3. Use different instrument arrangements to make a whole score. Just common ensembles (violin/clarinet/piano:flute/viola/harp)
+4. Proc. gen. vgm.
